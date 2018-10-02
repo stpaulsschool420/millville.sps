@@ -1,0 +1,3 @@
+﻿
+ko.bindingHandlers.chosen={init:function(element,valueAccessor,allBindingsAccessor){ko.bindingHandlers.options.init(element);if(typeof allBindingsAccessor().chosenWidth!=="undefined"){$(element).chosen({width:allBindingsAccessor().chosenWidth});}
+else{$(element).chosen();}},update:function(element,valueAccessor,allBindings){ko.bindingHandlers.options.update(element,valueAccessor,allBindings);$(element).trigger('chosen:updated');}};
