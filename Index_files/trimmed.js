@@ -1,0 +1,2 @@
+﻿
+ko.subscribable.fn.trimmed=function(){return ko.computed({read:function(){return this()?typeof(this())===typeof(string)?this().trim():this():this();},write:function(value){value?this(value.toString().trim()):this(value);this.valueHasMutated();},owner:this});};if(!String.prototype.trim){String.prototype.trim=function(){return this.replace(/^\s+|\s+$/g,'');};}

@@ -1,0 +1,11 @@
+
+.tablesorter-jui {
+	font-size: 1.0em;
+}
+/* hovered row colors */
+.tablesorter-jui tbody > tr:hover td {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+	
+	background-color:#FFFF99;
+}

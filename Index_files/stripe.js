@@ -1,0 +1,2 @@
+﻿
+ko.bindingHandlers.stripe={update:function(element,valueAccessor,allBindingsAccessor){var allBindings=allBindingsAccessor();var even=allBindings.evenClass;var odd=allBindings.oddClass;$(element).children(":nth-child(odd)").addClass(odd).removeClass(even);$(element).children(":nth-child(even)").addClass(even).removeClass(odd);}}
