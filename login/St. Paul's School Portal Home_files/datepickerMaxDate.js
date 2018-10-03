@@ -1,0 +1,2 @@
+﻿
+ko.bindingHandlers.maxDate={update:function(element,valueAccessor){var value=valueAccessor();var valueUnwrapped=ko.utils.unwrapObservable(value);if(ko.isObservable(valueUnwrapped))valueUnwrapped=valueUnwrapped();if(valueUnwrapped=="")return;var elemt=$(element);elemt.datepicker("option","maxDate",valueUnwrapped);}}
