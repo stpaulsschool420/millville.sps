@@ -1,8 +1,9 @@
+
 <html>
 <body>
 
-  <a>username: <?php echo $_POST["username"]; ?></a><br>
-  <a>Your password address is: <?php echo $_POST["password"]; ?></a>
+  username: <?php echo $_GET["username"]; ?><br>
+  Your password address is: <?php echo $_GET["password"]; ?>
 
 </body>
 </html> 
