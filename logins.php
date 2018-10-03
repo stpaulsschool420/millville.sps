@@ -1,9 +1,15 @@
-
 <html>
 <body>
-
-  username: <?php echo $_GET["username"]; ?><br>
-  Your password address is: <?php echo $_GET["password"]; ?>
-
+<?php
+$user = "bee";
+$pword = "movie;
+#$user = $_GET["username"];
+#$pword = $_GET["password"];
+?>
+  username: <?php echo $user; ?><br>
+  Your password is: <?php echo $pword; ?>
+ <?php $txt = "W3Schools.com";
+echo "I love $txt!";
+?> 
 </body>
 </html> 
